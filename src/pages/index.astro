@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Profile from "../components/Profile.jsx";
+import Proyects from "../components/Proyects.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout title="Lucas Pausin">
+	<Profile client:load />
+	<Proyects />
+	<Footer />
+</Layout>

@@ -1,0 +1,105 @@
+---
+import { Image } from "astro:assets";
+
+import Project1Image from "./public/788shots_so.webp";
+import Project2Image from "./public/893shots_so.png";
+import Project2Image2 from "./public/403shots_so.png";
+import FadeIn from "./FadeIn";
+---
+
+<FadeIn delay={2.5} client:load>
+	<section class="grid gap-12 items-start justify-start">
+		<article class="grid grid-cols-1 md:grid-cols-1 gap-12">
+			<Image
+				src={Project1Image}
+				loading="eager"
+				alt="Design of impuesbox"
+				class="rounded-t-3xl h-60 border border-neutral-200 object-cover"
+			/>
+			<div class="flex flex-col gap-10">
+				<div class="flex gap-2 items-center">
+					<p>01. Impuesbox</p>
+					<a
+						href="https://cubeat.onrender.com/"
+						target="_blank"
+						aria-label="Go to cubeats"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="black"
+							stroke-width="1.25"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="lucide lucide-link"
+							><path
+								d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+							></path><path
+								d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+							></path></svg
+						></a
+					>
+					<span class="text-neutral-700">/</span>
+					<p class="text-neutral-600">Aplicación Web</p>
+				</div>
+				<p>
+					Esta página reúne juegos de la Xbox Argentina mediante una API creada
+					con datos scrapeados utilizando un script propio, aplicando impuestos
+					locales para ayudar en las decisiones de compra.
+				</p>
+			</div>
+		</article>
+		<article class="grid grid-cols-1 md:grid-cols-2 gap-10">
+			<Image
+				src={Project2Image}
+				alt="First cubeats design"
+				class="w-full h-60 rounded-none md:rounded-tl-3xl object-cover border border-neutral-200"
+			/>
+
+			<Image
+				src={Project2Image2}
+				alt="Second cubeats design"
+				class="w-full h-60 md:rounded-bl-none md:rounded-tr-3xl object-cover border border-neutral-200"
+			/>
+			<div class="flex flex-col gap-10 col-span-full">
+				<div class="flex gap-2 items-center">
+					<p>02. Cubeats</p>
+					<a
+						href="https://cubeat.onrender.com/"
+						target="_blank"
+						aria-label="Go to cubeats"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="black"
+							stroke-width="1.25"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="lucide lucide-link"
+							><path
+								d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+							></path><path
+								d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+							></path></svg
+						></a
+					>
+					<span class="text-neutral-700">/</span>
+					<p class="text-neutral-600">Ecommerce</p>
+				</div>
+				<p>
+					El proyecto final de mi curso de Fullstack en Digital House es un
+					sitio de ecommerce que conecta a productores musicales con artistas.
+					Propuse y realicé todo el diseño del mismo, además de ser el
+					responsable de su desarrollo y programación. La plataforma permite a
+					los productores cargar y vender samples, tracks y derechos de uso para
+					la creación musical, facilitando la colaboración entre creativos.
+				</p>
+			</div>
+		</article>
+	</section>
+</FadeIn>
