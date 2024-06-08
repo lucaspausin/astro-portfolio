@@ -16,10 +16,7 @@ function Profile() {
 					className="w-7 h-7 rounded-full object-cover"
 				/>
 				<p>Lucas Pausin</p>
-				<p className="pr-2 text-neutral-600">
-					Desarrollador de front-end
-				</p>
-				
+				<p className="pr-2 text-neutral-600">Desarrollador de front-end</p>
 			</motion.div>
 			<div className="flex flex-col gap-10">
 				<motion.h1
@@ -103,7 +100,7 @@ function Profile() {
 					Email
 				</a>
 				<a
-					href="https://drive.google.com/file/d/17EG4RXkwmfsxjEPxDjhJUF8ZzGXJ86C8/view?usp=sharing"
+					href="https://drive.google.com/file/d/1dpzyiIDOmwZ_iQnKpQXEEniywerkV5xB/view?usp=sharing"
 					target="_blank"
 					className="flex gap-2 items-center py-[6px] px-4 bg-[#F6F6F6] rounded-full"
 				>
