@@ -100,7 +100,7 @@ function Profile() {
 					Email
 				</a>
 				<a
-					href="https://drive.google.com/file/d/1dpzyiIDOmwZ_iQnKpQXEEniywerkV5xB/view?usp=sharing"
+					href="https://drive.google.com/file/d/1Vv6uPcJIQ7QEd35lxSi-SdL0mrjT3G2F/view?usp=sharing"
 					target="_blank"
 					className="flex gap-2 items-center py-[6px] px-4 bg-[#F6F6F6] rounded-full"
 				>
