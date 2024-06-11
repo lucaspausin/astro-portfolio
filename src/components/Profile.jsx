@@ -16,7 +16,7 @@ function Profile() {
 					className="w-7 h-7 rounded-full object-cover"
 				/>
 				<p>Lucas Pausin</p>
-				<p className="pr-2 text-neutral-600">Desarrollador de front-end</p>
+				<p className="pr-2 text-neutral-700">Desarrollador de front-end</p>
 			</motion.div>
 			<div className="flex flex-col gap-10">
 				<motion.h1
@@ -53,7 +53,7 @@ function Profile() {
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
 				transition={{ duration: 0.25, delay: 2 }}
-				className="flex flex-col md:flex-row justify-between items-start md:items-center w-full text-[14px] md:text-[15px] gap-4 md:gap-0 text-neutral-700"
+				className="flex flex-col md:flex-row justify-between items-start md:items-center w-full text-[14px] md:text-[15px] gap-4 md:gap-0 text-neutral-800"
 			>
 				<a
 					href="https://www.linkedin.com/in/lucaspausin/"
